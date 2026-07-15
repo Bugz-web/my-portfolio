@@ -10,3 +10,26 @@
 body {
     font-family: "inter", Arial, Helvetica, sans-serif;
 }
+
+
+.hero {
+    background: url(/images/intro-bg.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+}
+
+.text-container {
+    z-index: 10;
+}
+
+.icons {
+    position: absolute;
+    bottom: 20px;
+}
