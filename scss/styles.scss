@@ -68,4 +68,16 @@ body {
    .about-info p {
     width: 100% !important;
    }
+
+   .stats .stat {
+    border-right: 0 !important;
+    border-bottom: 1px solid var(--bs-secondary);
+   }
+
+   .footer .copy-2 {
+    justify-content: center !important;
+   }
+   .footer .copy-1 {
+    justify-content: center !important;
+   }
 }
