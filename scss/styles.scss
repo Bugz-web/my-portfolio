@@ -33,3 +33,14 @@ body {
     position: absolute;
     bottom: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .about-info {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+   .about-info p {
+    width: 100% !important;
+   }
+}
